@@ -5,8 +5,8 @@
 > 🎯 **In one picture:** the same real emergency-response route (Arad to Bucharest), found two different ways.
 
 <p align="center">
-<img src="images/01_bfs_route.png" width="410">
-<img src="images/02_dfs_route.png" width="410">
+<img src="/01_bfs_route.png" width="410">
+<img src="/02_dfs_route.png" width="410">
 </p>
 
 ---
