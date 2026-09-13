@@ -70,15 +70,14 @@ The same **neighbour generator** and **Manhattan Distance** are used by both alg
 
 ```mermaid
 flowchart TD
-    A[Start 8-Puzzle] --> B[Generate Neighbours]
-    B --> C[Manhattan Distance h(n)]
-    C --> D[Hill Climbing]
-    C --> E[A* Search]
-    D --> F[Choose lowest h(n)]
-    E --> G[Calculate f(n) = g(n) + h(n)]
-    F --> H[May get stuck]
-    G --> I[Choose lowest f(n)]
-    I --> J[Find shortest path]
+    A["8-Puzzle Start"] --> B["Generate Neighbors"]
+    B --> C["Manhattan Distance h(n)"]
+    C --> D["Hill Climbing"]
+    C --> E["A* Search"]
+    D --> F["Choose Lowest h(n)"]
+    E --> G["Calculate f(n) = g(n) + h(n)"]
+    F --> H["May Get Stuck"]
+    G --> I["Find Best Path"]
 ```
 
 ---
